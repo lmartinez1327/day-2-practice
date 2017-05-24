@@ -7,8 +7,7 @@ header .col-sm-12{
   height: 125px;
   background-color: #000099;
   margin-top: 25px;
-  outline: 10px;
-  outline-color: black;
+  border: 1px;
 }
 nav .col-sm-12{
   height: 40px;
@@ -16,8 +15,8 @@ nav .col-sm-12{
 }
 content .col-sm-9{
   height:225px;
-  background-color: #ff0000
-;
+  background-color: #ff0000;
+
 }
 content .col-sm-3{
   height: 225px;
@@ -30,4 +29,35 @@ promo .col-sm-3{
 footer .col-sm-12{
   height: 35px;
   background-color: #000;
+}
+.query-test{
+  width: 50%;
+  background-color: purple;
+  height: 400px;
+  clear: both;
+}
+
+@media screen and (max-width: 800px){
+  .query-test {
+    width: 80%;
+    background-color: blue;
+  }
+}
+.query-practice {
+  color: green;
+  background-color: blue;
+}
+@media screen and (min-width: 800px) {
+  .query-practice{
+    font-size: 75px;
+    color: white;
+    background-color: red;
+  }
+}
+@media screen and (min-width: 500px) {
+  .query-practice{
+    font-size: 55px;
+    color: yellow;
+    background-color: black;
+  }
 }
